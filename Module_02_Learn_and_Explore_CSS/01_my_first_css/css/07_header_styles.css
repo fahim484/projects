@@ -3,7 +3,8 @@
     background-color: lightpink;
     margin: 40px;
     width: 500px;
-    box-shadow: 20px 20px 40px grey;
+    /* box-shadow: 20px 20px 40px grey; */
+    box-shadow: 0 0 15px 5px rgba(59, 130, 246, 0.6);
 }
 
 .header{
