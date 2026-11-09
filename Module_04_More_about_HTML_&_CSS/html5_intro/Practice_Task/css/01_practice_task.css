@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 1.2rem;
+}
+
+hr {
+    margin: 1.2rem 0;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+input[type="search"] {
+    padding: .6rem;
+    width: 18.7rem;
+    border: 2px solid #3C64A9;
+    border-radius: .2rem;
+    font-weight: 700;
+}
+
+input[type="search"]:focus {
+    border: 2px solid #4812c7af;
+    outline: none;
+}
+
+.btn {
+    padding: .6rem 1.2rem;
+    background-color: #473954;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #5a3b6e;
+}
+
+.panda-img {
+    width: 15%;
+    height: auto;
+}
+
+a {
+    display: block;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.feedback-section {
+    margin-top: 1.2rem;
+}
+
+input[type="text"], input[type="date"], textarea {
+    padding: .6rem;
+    width: 30%;
+    border: 2px solid #3C64A9;
+    border-radius: .2rem;
+}
