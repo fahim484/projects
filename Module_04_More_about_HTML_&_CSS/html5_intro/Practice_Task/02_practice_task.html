@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Task 2</title>
+    <link rel="stylesheet" href="css/02_practice_task.css">
+</head>
+<body>
+    <!-- Header section start -->
+    <header>
+        <section class="form-wrap">
+            <div class="form-header">
+                <span class="badge">2027 Contest</span>
+                <h2>Storytelling Contest -- feedback form</h2>
+                <p>Share your story and rate what you've read! All feedback is welcome.</p>
+            </div>
+        </section>
+    </header>
+    <!-- Header section end -->
+     
+    <!-- Main section start -->
+    <main>
+        <section class="form-wrap">
+          <section class="submission-section">
+            <!-- Row: Name + Email -->
+            <div class="form-row">
+              <div class="field">
+                <label for="participant-name">Participant Name *</label>
+                <input
+                  type="text"
+                  id="participant-name"
+                  name="participant-name"
+                  placeholder="Your full name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="participant-email">Email address *</label>
+                <input
+                  type="email"
+                  id="participant-email"
+                  name="participant-email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Story Title -->
+            <div class="field">
+              <label for="story-title">Story Title *</label>
+              <input
+                type="text"
+                id="story-title"
+                name="story-title"
+                placeholder="Give your story a title"
+                required
+              />
+            </div>
+
+            <!-- Genre Dropdown -->
+            <div>
+              <label for="story-genre">Genre *</label>
+              <div class="hint">
+                Select the genre that best describes your story
+              </div>
+              <select id="story-genre" name="story-genre" required>
+                <option value="" disabled selected>—— Select a genre ——</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="sci-fi">Science Fiction</option>
+                <option value="mystery">Mystery</option>
+                <option value="romance">Romance</option>
+                <option value="horror">Horror</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <br />
+
+            <!-- Story Textarea -->
+            <div class="field">
+              <label for="story-text">Your Story *</label>
+              <div class="hint">
+                Share your full story below (max 2,000 characters)
+              </div>
+              <textarea
+                id="story-text"
+                name="story-text"
+                rows="10"
+                cols="60"
+                maxlength="2000"
+                placeholder="Once upon a time…"
+                required
+              ></textarea>
+              <div class="char-count" id="char-count">0 / 2,000 characters</div>
+            </div>
+          </section>
+
+          <hr class="divider" />
+
+          <section class="ratings-section">
+            <!-- Rating Section -->
+            <div class="section-title">Rate the stories</div>
+            <p style="font-size: 13px; color: #666; margin: 0 0 1rem">
+              After reading other submissions, use the dropdowns below to rate
+              each dimension.
+            </p>
+
+            <!-- Rating: Plot -->
+            <div class="rating-row">
+              <label for="rate-plot">Plot &amp; structure</label>
+              <select id="rate-plot">
+                <option value="" disabled selected>— rate —</option>
+                <option value="poor">Poor</option>
+                <option value="fair">Fair</option>
+                <option value="good">Good</option>
+                <option value="very-good">Very good</option>
+                <option value="excellent">Excellent</option>
+                <option value="outstanding">Outstanding</option>
+              </select>
+            </div>
+
+            <!-- Rating: Characters -->
+            <div class="rating-row">
+              <label for="rate-characters">Characters &amp; dialogue</label>
+              <select id="rate-characters">
+                <option value="" disabled selected>— rate —</option>
+                <option value="poor">Poor</option>
+                <option value="fair">Fair</option>
+                <option value="good">Good</option>
+                <option value="very-good">Very good</option>
+                <option value="excellent">Excellent</option>
+                <option value="outstanding">Outstanding</option>
+              </select>
+            </div>
+
+            <!-- Rating: Creativity -->
+            <div class="rating-row">
+              <label for="rate-creativity">Creativity &amp; originality</label>
+              <select id="rate-creativity">
+                <option value="" disabled selected>— rate —</option>
+                <option value="poor">Poor</option>
+                <option value="fair">Fair</option>
+                <option value="good">Good</option>
+                <option value="very-good">Very good</option>
+                <option value="excellent">Excellent</option>
+                <option value="outstanding">Outstanding</option>
+              </select>
+            </div>
+
+            <!-- Rating: Overall -->
+            <div class="rating-row">
+              <label for="rate-overall">Overall impression</label>
+              <select id="rate-overall">
+                <option value="" disabled selected>— rate —</option>
+                <option value="poor">Poor</option>
+                <option value="fair">Fair</option>
+                <option value="good">Good</option>
+                <option value="very-good">Very good</option>
+                <option value="excellent">Excellent</option>
+                <option value="outstanding">Outstanding</option>
+              </select>
+            </div>
+
+            <br />
+
+            <!-- Additional Comments -->
+            <div class="field">
+              <label for="feedback-comments">Additional comments</label>
+              <div class="hint">Any other feedback you'd like to share?</div>
+              <textarea
+                id="feedback-comments"
+                rows="4"
+                cols="60"
+                placeholder="Optional thoughts, suggestions, or encouragement…"
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button class="submit-btn" type="submit">
+              Submit feedback
+            </button>
+          </section>
+        </section>
+    </main>
+    <!-- Main section end -->
+</body>
+</html>
