@@ -4,7 +4,29 @@
     box-sizing: border-box;
 }
 
+/* shared or global or common Styles start */
+.logo h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
 
+.color-orange {
+    color: #FD6E0A;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    padding: 1.1rem 2.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+/* shared or global or common Styles end */
+
+/* main styles start */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,4 +34,30 @@
 
 header {
     background-color: #FFF8F3;
+    padding-top: 3.1rem;
 }
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 3.1rem;
+    list-style-type: none;
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #474747;
+}
+
+/* main styles end */
