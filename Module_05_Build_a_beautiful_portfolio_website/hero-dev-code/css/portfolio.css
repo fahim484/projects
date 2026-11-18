@@ -24,6 +24,25 @@
     border-radius: 0.3rem;
     cursor: pointer;
 }
+
+.section-title, .section-heading {
+    max-width: 51.6rem;
+    text-align: center;
+}
+
+.section-title h2, .section-heading h2 {
+    font-size: 2.1rem;
+    /* font-weight: bold; */
+    color: #181818;
+    margin-bottom: 1.8rem;
+}
+
+.section-title p, .section-heading p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-bottom: 1.8rem;
+}
 /* shared or global or common Styles end */
 
 /* main styles start */
@@ -113,5 +132,41 @@ nav .menu a {
     vertical-align: middle;
 }
 /* banner or hero section styles end */
+
+/* about section styles start */
+#about {
+    padding-top: 8.1rem;
+}
+
+#about .about-container {
+    width: 71%;
+    /* max-width: 1140px; */
+    max-width: 71.2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 8.1rem 9.7rem;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3.1rem;
+}
+
+#about .about-container .about-info .info-card p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+#about .about-container .about-info .info-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #474747;
+}
+/* about section styles end */
 
 /* main styles end */
