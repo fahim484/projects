@@ -5,6 +5,10 @@
 }
 
 /* shared or global or common Styles start */
+.text-center {
+    text-align: center;
+}
+
 .logo h2 {
     font-size: 2.8rem;
     font-weight: 800;
@@ -25,7 +29,7 @@
     cursor: pointer;
 }
 
-.section-title, .section-heading {
+.section-heading {
     max-width: 51.6rem;
     text-align: center;
     /* margin: 0 auto 4.8rem auto; */
@@ -44,6 +48,10 @@
     line-height: 1.8rem;
     color: #757575;
     margin-bottom: 1.8rem;
+}
+
+#about, #skills, #resume {
+    padding-top: 8.1rem;
 }
 /* shared or global or common Styles end */
 
@@ -136,10 +144,6 @@ nav .menu a {
 /* banner or hero section styles end */
 
 /* about section styles start */
-#about {
-    padding-top: 8.1rem;
-}
-
 #about .about-container {
     width: 71%;
     /* max-width: 1140px; */
@@ -172,10 +176,6 @@ nav .menu a {
 /* about section styles end */
 
 /* skills section styles start */
-#skills {
-    padding-top: 8.1rem;
-}
-
 #skills .skills-container {
     width: 71%;
     max-width: 71.2rem;
@@ -213,5 +213,52 @@ nav .menu a {
     color: #757575;
 }
 /* skills section styles end */
+
+/* resume section styles start */
+#resume .resume-container {
+    width: 71%;
+    max-width: 71.2rem;
+    margin: 7rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+#resume .resume-container hr {
+    margin: 1.8rem 0;
+}
+
+#resume .resume-container .section-title {
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+    color: #474747;
+    margin-bottom: 1.8rem;
+}
+
+#resume .resume-container .resume-card {
+    max-width: 31.9rem;
+    margin-right: 2.9rem;
+}
+#resume .resume-container .resume-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: .6rem;
+}
+
+#resume .resume-container .resume-card .card-info {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 1.2rem;
+}
+
+#resume .resume-container .resume-card .card-text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: #757575;
+    margin-bottom: 3.1rem;
+}
+/* resume section styles end */
 
 /* main styles end */
