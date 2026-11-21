@@ -28,6 +28,8 @@
 .section-title, .section-heading {
     max-width: 51.6rem;
     text-align: center;
+    /* margin: 0 auto 4.8rem auto; */
+    margin: 0 auto;
 }
 
 .section-title h2, .section-heading h2 {
@@ -168,5 +170,48 @@ nav .menu a {
     color: #474747;
 }
 /* about section styles end */
+
+/* skills section styles start */
+#skills {
+    padding-top: 8.1rem;
+}
+
+#skills .skills-container {
+    width: 71%;
+    max-width: 71.2rem;
+    margin: 0 auto;
+}
+
+#skills .skills-container .skill-box {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#skills .skills-container .skill-card {
+    padding: 1.8rem;
+    /* border: 1px solid #E0E0E0; */
+    box-shadow: 0 6px 50px 0 #0000000f;
+    border-radius: 0.3rem;
+    max-width: 15.6rem;
+}
+
+#skills .skills-container .skill-card img {
+    max-width: 2.7rem;
+    margin-bottom: 1.8rem;
+}
+
+#skills .skills-container .skill-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 1.2rem;
+}
+
+#skills .skills-container .skill-card p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: #757575;
+}
+/* skills section styles end */
 
 /* main styles end */
