@@ -261,4 +261,57 @@ nav .menu a {
 }
 /* resume section styles end */
 
+/* footer section styles start */
+#footer {
+    background-color: #FFF8F3;
+    margin-top: 7rem;
+    padding: 8.1rem 0;
+}
+
+#footer .footer-container {
+    width: 71%;
+    max-width: 71.2rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 9.7rem;
+}
+
+#footer .footer-container h2 {
+    font-size: 2.1rem;
+    /* font-weight: bold; */
+    color: #181818;
+    margin-bottom: 1.2rem;
+}
+
+#footer .footer-container .social {
+    max-width: 35.1rem;
+}
+
+#footer .footer-container .social p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: #474747;
+    margin-bottom: 1.8rem;
+}
+
+#footer .footer-container .social .icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#footer .footer-container .form {
+    max-width: 28.8rem;
+}
+
+#footer .footer-container .form input[type="text"], #footer .footer-container .form input[type="email"], #footer .footer-container .form textarea {
+    width: 28.8rem;
+    padding: 1.2rem 1.8rem;
+    font-size: 1rem;
+    color: #757575;
+    border: none;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+/* footer section styles end */
+
 /* main styles end */
