@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* shared or global or reusable or common styles start */
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* shared or global or reusable or common styles end */
