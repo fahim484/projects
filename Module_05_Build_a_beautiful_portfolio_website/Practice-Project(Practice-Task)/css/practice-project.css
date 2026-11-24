@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* shared or global or reusable or common styles start */
 
 .work-sans-font {
@@ -11,3 +15,42 @@
   font-optical-sizing: auto;
 }
 /* shared or global or reusable or common styles end */
+
+/* header section styles start */
+header {
+    background: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+header .banner {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .banner .hero-content {
+    flex: 0 1 480px;
+    max-width: 50ch;
+}
+
+header .banner .hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+header .banner .hero-content p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+/* header section styles end */
