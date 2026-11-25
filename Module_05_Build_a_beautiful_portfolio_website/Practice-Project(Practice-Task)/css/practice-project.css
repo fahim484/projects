@@ -131,4 +131,8 @@ header .banner .hero-content p {
 #about .about-container .about-content ul li {
     margin-bottom: .5rem;
 }
+
+#about .about-container .about-content ul li i {
+    color: #16D887;
+}
 /* about section styles end */
