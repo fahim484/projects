@@ -106,6 +106,7 @@ header .banner .hero-content p {
 #about .about-container .about-content {
     max-width: 26rem;
     width: 100%;
+    margin-top: calc(10% + 15px);
 }
 
 #about .about-container .about-content h3 {
