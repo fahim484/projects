@@ -9,6 +9,9 @@ html {
 }
 
 /* shared or global or reusable or common styles start */
+.text-center {
+    text-align: center;
+}
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
@@ -44,8 +47,16 @@ html {
     margin: 0 auto;
 }
 
-#about {
+#about, #skills {
     padding-top: 8.1rem;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #151414;
 }
 /* shared or global or reusable or common styles end */
 
@@ -137,3 +148,41 @@ header .banner .hero-content p {
     color: #16D887;
 }
 /* about section styles end */
+
+/* skills section styles start */
+#skills .skills-container .section-heading {
+    margin-bottom: 3.1rem;
+}
+
+#skills .skills-container .skill-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.3rem;
+}
+
+#skills .skills-container .skill-box .skill-card {
+    max-width: 17rem;
+}
+
+#skills .skills-container .skill-box .skill-card img {
+    max-width: 5.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#skills .skills-container .skill-box .skill-card h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 1rem;
+}
+
+#skills .skills-container .skill-box .skill-card h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #737272;
+}
+
+
+
+/* skills section styles end */
